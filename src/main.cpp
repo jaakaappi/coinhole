@@ -219,4 +219,5 @@ void loop()
   {
     ledcWrite(ledPwmChannel, 0);
   }
+  updateDisplay();
 }
